@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "todo",
+    "name": "Todo App",
     "slug": "todo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -14,20 +14,24 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.balakrishnasani.todo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5392b84e-08f9-437d-a41d-f35fb3522200"
+      }
     }
   }
 }
